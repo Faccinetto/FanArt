@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> FanArt  | Categorias </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin_css/style.css">
+    <link rel="stylesheet" href="../Recursos/css/bootstrap/bootstrap.min.css">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class="bx bxl-c-plus-plus icon"></i>
+        <div class="logo_name">FanArt.com</div>
+        <i class="bx bx-menu" id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class="bx bx-search" ></i>
+         <input type="text" placeholder="Buscar...">
+         <span class="tooltip">Busqueda</span>
+      </li>
+      <li>
+        <a href="admin.html">
+          <i class="bx bx-grid-alt"></i>
+          <span class="links_name">Inicio</span>
+        </a>
+         <span class="tooltip">Inicio</span>
+      </li>
+      <li>
+       <a href="usuarios.html">
+         <i class="bx bx-user-circle" ></i>
+         <span class="links_name">Usuarios</span>
+       </a>
+       <span class="tooltip">Usuarios</span>
+     </li>
+     <li>
+       <a href="empleados.html">
+         <i class="bx bx-user" ></i>
+         <span class="links_name">Empleados</span>
+       </a>
+       <span class="tooltip">Empleados</span>
+     </li>
+     <li>
+       <a href="clientes.html">
+         <i class="bx bx-user-pin" ></i>
+         <span class="links_name">Clientes</span>
+       </a>
+       <span class="tooltip">Clientes</span>
+     </li>
+     <li>
+       <a href="categorias.html">
+         <i class="bx bx-category-alt" ></i>
+         <span class="links_name">Categorias</span>
+       </a>
+       <span class="tooltip">Categorias</span>
+     </li>
+     <li>
+       <a href="productos.html">
+         <i class="bx bx-box" ></i>
+         <span class="links_name">Productos</span>
+       </a>
+       <span class="tooltip">Productos</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <img src="admin_img/profile.jpg" alt="profileImg">
+           <div class="name_job">
+             <div class="name">Prem Shahi</div>
+             <div class="job">Web designer</div>
+           </div>
+         </div>
+         <a href="../index.html">
+         <i class="bx bx-log-out" id="log_out" ></i>
+         </a>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+      <div class="text_admin">Panel de Administrador</div>
+        <div class="container">
+            <h1>Listado de Categorias</h1>
+            <a href="admin_form/categorias/nuevo.html" class="btn_new">Agregar Categoria</a>
+            <form class="d-flex form_search" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <table class="categoria">
+                <tr>
+                    <th>ID</th>
+                    <th>Categoria</th>
+                    <th>Acciones</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pinturas</td>
+                    <td>
+                        <a href="admin_form/categorias/eliminar.html" class="link_delete">Eliminar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Solventes</td>
+                    <td>
+                        <a href="admin_form/categorias/eliminar.html" class="link_delete">Eliminar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Accesorios Extras</td>
+                    <td>
+                        <a href="admin_form/categorias/eliminar.html" class="link_delete">Eliminar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Equipos de Protección</td>
+                    <td>
+                        <a href="admin_form/categorias/eliminar.html" class="link_delete">Eliminar</a>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+  </section>
+
+  <script src="admin_js/script.js"></script>
+  <script src="admin_js/user.js"></script>
+  <script src="../Recursos/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="../Recursos/js/bootstrap/jquery.min.js"></script>
+  <script src="../Recursos/js/fontawesome/all.js"></script>
+
+</body>
+</html>
