@@ -1,0 +1,241 @@
+.logo{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounceIn;
+    animation-duration: 2s;
+    font-size: 25px;
+}
+.logo img{
+    width: 150px;
+    height: 30px;
+}
+.login_icon6{
+    margin: 5px;
+    font-size: 20px;
+    color: #1C2833;
+}
+
+.navbar{
+    font-family: 'Baloo 2', cursive;
+    font-size: 16px;
+}
+.busqueda_form{
+    height: 35px;
+}
+
+.busqueda_form button{
+    height: 35px;
+    text-align: center;
+    border: 1px solid #1C2833;
+    color: #1C2833;
+}
+
+.busqueda_form button:hover{
+    background: #1C2833;
+    border: 1px solid #1C2833;
+    color: #fff;
+}
+
+/*ESTILOS DEL BANNER DE IMAGENES (SLIDER)*/
+.container-slider_productos{
+  position: relative;
+  overflow: hidden;
+}
+.slider_productos {
+  display: flex;
+  width: 400%;
+  height: 400px;
+  margin-left: -100%;
+  position: relative;
+}
+.slider_productos:before{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+}
+.slider__section_producto {
+  width: 100%;
+  position: relative;
+}
+.slider__img_producto {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider__btn_producto {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.7);
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-family: 'Baloo Tamma 2', cursive;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+}
+.slider__btn_producto:hover { 
+  background: #fff;
+}
+.slider__btn--left_producto{
+  left: 10px;
+}
+.slider__btn--right_producto {
+  right: 10px;
+}
+.slider__content_producto{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+  z-index: 999;
+}
+.slider__title_producto{
+  font-size: 2.2em;
+  margin: 0;
+  font-family: 'Baloo Tamma 2', cursive;
+}
+.slider__txt_producto{
+  margin: 5px 0;
+  font-family: 'Baloo2', cursive;
+}
+.btn-shop_producto{
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #1C2833;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  margin: 20px auto;
+  transition: all 0.5s;
+}
+.btn-shop_producto:hover{
+  background: #1C2833;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn_detalle{
+    width: 100%;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+}
+
+.btn_agregar{
+    width: 100%;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+}
+
+.col_producto{
+    font-family: 'Baloo 2', cursive;
+}
+
+.col_producto .card-body{
+    height: 200px;
+}
+.col_producto .card{
+    height: 450px;
+}
+.col_producto .card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.col_producto .card-text{
+    font-size: 15px;
+    font-weight: 400;
+}
+.col_producto img{
+    max-width: 150px;
+    margin: auto;
+    max-height: 150px;
+}
+.pie-pagina_producto{
+    width: 100%;
+    background-color: #ABB2B9;
+}
+.pie-pagina_producto .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 74px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+    padding: 15px 0px;
+}
+.pie-pagina_producto .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina_producto .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina_producto .grupo-1 .box h2{
+    color: #1C2833;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_producto .grupo-1 .box p{
+    color: #1C2833;
+    margin-bottom: 10px;
+    font-family: 'Baloo 2', cursive;
+    text-align: justify;
+    font-weight: bold;
+}
+.pie-pagina_producto .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 300ms ease;
+    color: #1C2833;
+}
+.pie-pagina_producto .grupo-1 .red-social a:hover{
+    color: #FFF;
+    background: #1C2833;
+}
+.pie-pagina_producto .grupo-2{
+    background-color: #1C2833;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_producto .grupo-2 small{
+    font-size: 15px;
+}
+
+@media (max-width:869px){
+    .pie-pagina_producto .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        margin: auto;
+    }
+}

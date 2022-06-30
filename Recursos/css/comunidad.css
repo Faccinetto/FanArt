@@ -1,0 +1,78 @@
+.btn-outline-success{
+    color: #7D3C98;
+}
+.btn-outline-success:hover{
+    background: #7D3C98;
+}
+.login_icon5{
+    margin: 5px;
+    font-size: 20px;
+    color: #7D3C98;
+}
+.seccion_comunidad2 h4{
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    animation: bounceInLeft;
+    animation-duration: 2s;
+    font-family: 'Baloo Tamma 2', cursive;
+    background: #7D3C98;
+}
+.btn-danger{
+    color: #FFF;
+    background: #7D3C98;
+    border: 1px solid #7D3C98;
+}
+.btn-danger:hover{
+    color: #7D3C98;
+    background: #fff;
+    border: 1px solid #7D3C98;
+}
+.boton{
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #7D3C98;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  margin: 20px auto;
+  transition: all 0.5s;
+}
+.seccion_publicaciones .card{
+    margin-top: 20px;
+}
+.seccion_publicaciones .card .card-title{
+    font-size: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.seccion_publicaciones .card .card-text{
+    font-size: 17px;
+    text-align: justify;
+    font-family: 'Baloo 2', cursive;
+}
+.seccion_publicaciones .card img{
+    height: 250px;
+}
+
+/*ESTILOS DEL BANNER DE COMUNIDAD*/
+.btn-shop4{
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #7D3C98;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  margin: 20px auto;
+  transition: all 0.5s;
+}
+.btn-shop4:hover{
+  background: #7D3C98;
+  color: white;
+  border-radius: 10px;
+}

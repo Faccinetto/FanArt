@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>FanArt.com | Productos</title>
+    <link rel="stylesheet" href="Recursos/css/animate/animate.css">
+    <link rel="stylesheet" href="Recursos/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="Recursos/css/fontawesome/all.css">
+    <link rel="stylesheet" href="Recursos/css/estilos.css">
+    <link rel="stylesheet" href="Recursos/css/producto.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="index.html"><img src="Recursos/img/iconos/logo.PNG" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="Categorias/pinturas.html">Pinturas</a></li>
+                                <li><a class="dropdown-item" href="Categorias/solventes.html">Solventes</a></li>
+                                <li><a class="dropdown-item" href="Categorias/accesorios.html">Accesorios Extras</a></li>
+                                <li><a class="dropdown-item" href="Categorias/equipoProteccion.html">Equipo de Protección</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="productos.html">Todos los Productos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comunidad.html">Comunidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html"><i class="login_icon6 d-flex fa-solid fa-circle-user"></i></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex busqueda_form" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+                        <button class="btn btn-sm btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <!--BANNER DE IMAGENES-->
+    <div class="container-slider_productos">
+        <div class="slider_productos" id="slider_productos">
+            <div class="slider__section_producto">
+                <img src="Recursos/img/banner/producto1.jpg" alt="producto1" class="slider__img_producto">
+                <div class="slider__content_producto">
+                    <h2 class="slider__title_producto">FanArt.com</h2>
+                    <p class="slider__txt_producto">Nosotros somos una microempresa en donde alentamos el arte urbano promocional</p>
+                    <a href="conocenos.html" class="btn-shop_producto">VER MAS</a>
+                </div>
+            </div>
+            <div class="slider__section_producto">
+                <img src="Recursos/img/banner/producto2.jpg" alt="producto1" class="slider__img_producto">
+                <div class="slider__content_producto">
+                    <h2 class="slider__title_producto">Nosotros somos FanArt.com</h2>
+                    <p class="slider__txt_producto">En donde puedes publicar tu arte sin ningun costo o peligro.</p>
+                </div>
+            </div>
+            <div class="slider__section_producto">
+                <img src="Recursos/img/banner/producto3.jpg" alt="producto1" class="slider__img_producto">
+                <div class="slider__content_producto">
+                    <h2 class="slider__title_producto">Aquiere nuestros Productos ¡YA!</h2>
+                    <p class="slider__txt_producto">En donde puedes publicar tu arte sin ningun costo o peligro.</p>
+                    <a href="productos.html" class="btn-shop_producto">PRODUCTOS</a>
+                </div>
+            </div>
+            <div class="slider__section_producto">
+                <img src="Recursos/img/banner/producto4.jpg" alt="producto1" class="slider__img_producto">
+                <div class="slider__content_producto">
+                    <h2 class="slider__title_producto">Foro cumintario de FanArt.com</h2>
+                    <p class="slider__txt_producto">Lleva tu arte a la vida publicandolo en nuestro foro.</p>
+                    <a href="catalago_producto.html" class="btn-shop_producto">COMUNIDAD</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__btn_producto slider__btn--right_producto" id="btn-right-producto">&#62;</div>
+        <div class="slider__btn_producto slider__btn--left_producto" id="btn-left-producto">&#60;</div>
+    </div>
+    <hr>
+    
+    <!--CATALOGO DE PRODUCTOS-->
+    <div class="container">
+        <div class="row gy-3 my-3">
+            <div class="col-sm-6 col-md-4 col-lg-3 col_producto">
+                <div class="card">
+                    <img src="Recursos/img/productos/pinturas/producto1.png" class="card-img-top" alt="pinturas">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Producto:</strong> Esmalte Negro</h5>
+                        <p class="card-text"><strong class="categoria">Categoria:</strong> Pinturas</p>
+                        <p class="card-text"><strong class="categoria">Precio:</strong> $196.00</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn_detalle">Detalle</a><br><br>
+                        <a href="#" class="btn btn-success btn_agregar">Agregar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col_producto">
+                <div class="card">
+                    <img src="Recursos/img/productos/proteccion/producto1.PNG" class="card-img-top" alt="pinturas">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Producto:</strong> Impermeable</h5>
+                        <p class="card-text"><strong class="categoria">Categoria:</strong> Equipo de Protección</p>
+                        <p class="card-text"><strong class="categoria">Precio:</strong> $184.80</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn_detalle">Detalle</a><br><br>
+                        <a href="#" class="btn btn-success btn_agregar">Agregar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col_producto">
+                <div class="card">
+                    <img src="Recursos/img/productos/accesorios/producto1.PNG" class="card-img-top" alt="pinturas">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Producto:</strong> Brocha Poliéster</h5>
+                        <p class="card-text"><strong class="categoria">Categoria:</strong> Accesorios</p>
+                        <p class="card-text"><strong class="categoria">Precio:</strong> $119.00</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn_detalle">Detalle</a><br><br>
+                        <a href="#" class="btn btn-success btn_agregar">Agregar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col_producto">
+                <div class="card">
+                    <img src="Recursos/img/productos/pinturas/producto3.png" class="card-img-top" alt="pinturas">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Producto:</strong> Aerosol Metalico</h5>
+                        <p class="card-text"><strong class="categoria">Categoria:</strong> Pinturas</p>
+                        <p class="card-text"><strong class="categoria">Precio:</strong> $223.55</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn_detalle">Detalle</a><br><br>
+                        <a href="#" class="btn btn-success btn_agregar">Agregar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col_producto">
+                <div class="card">
+                    <img src="Recursos/img/productos/solventes/producto1.png" class="card-img-top" alt="pinturas">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Producto:</strong> Removedor de Fluido</h5>
+                        <p class="card-text"><strong class="categoria">Categoria:</strong> Solventes</p>
+                        <p class="card-text"><strong class="categoria">Precio:</strong> $251.77</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn_detalle">Detalle</a><br><br>
+                        <a href="#" class="btn btn-success btn_agregar">Agregar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col_producto">
+                <div class="card">
+                    <img src="Recursos/img/productos/accesorios/producto7.PNG" class="card-img-top" alt="pinturas">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Producto:</strong> Rodillo</h5>
+                        <p class="card-text"><strong class="categoria">Categoria:</strong> Accesorios</p>
+                        <p class="card-text"><strong class="categoria">Precio:</strong> $79.00</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn_detalle">Detalle</a><br><br>
+                        <a href="#" class="btn btn-success btn_agregar">Agregar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col_producto">
+                <div class="card">
+                    <img src="Recursos/img/productos/proteccion/producto3.PNG" class="card-img-top" alt="pinturas">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Producto:</strong> Mascarilla Doble Filtro</h5>
+                        <p class="card-text"><strong class="categoria">Categoria:</strong> Equipo de Protección</p>
+                        <p class="card-text"><strong class="categoria">Precio:</strong> $550.00</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn_detalle">Detalle</a><br><br>
+                        <a href="#" class="btn btn-success btn_agregar">Agregar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col_producto">
+                <div class="card">
+                    <img src="Recursos/img/productos/solventes/producto4.png" class="card-img-top" alt="pinturas">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Producto:</strong> Thinner 1L</h5>
+                        <p class="card-text"><strong class="categoria">Categoria:</strong> Solventes</p>
+                        <p class="card-text"><strong class="categoria">Precio:</strong> $501.00</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn_detalle">Detalle</a><br><br>
+                        <a href="#" class="btn btn-success btn_agregar">Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+        <!--SECCIÓN DEL FOOTER-->
+    <footer class="pie-pagina_producto">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="index.html">
+                        <img src="Recursos/img/iconos/logo.PNG" alt="Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>FantArt, pretendemos alentar el arte urbano de manera legal a traves de este sitio web para que nuestros usuarios puedan solicitar nuestro servicios, adquirir nuestros productos o publicar sus trabajos.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/DevelopersArts"><span class="fa-brands fa-facebook"></span></a>
+                    <a href="#"><span class="fa-brands fa-twitter"></span></a>
+                    <a href="#"><span class="fa-brands fa-instagram"></span></a>
+                    <a href="#"><span class="fa-brands fa-youtube"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022-2 <b>DeveloperArts</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script src="Recursos/js/producto.js"></script>
+    <script src="Recursos/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="Recursos/js/bootstrap/jquery.min.js"></script>
+    <script src="Recursos/js/fontawesome/all.js"></script>
+</body>
+</html>

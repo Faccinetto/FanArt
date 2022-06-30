@@ -1,0 +1,449 @@
+.pie-pagina{
+    width: 100%;
+    background-color: #7DCEA0;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 74px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+    padding: 15px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #196F3D;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #196F3D;
+    margin-bottom: 10px;
+    font-family: 'Baloo 2', cursive;
+    text-align: justify;
+    font-weight: bold;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 300ms ease;
+    color: #196F3D;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: #FFF;
+    background: #196F3D;
+}
+.pie-pagina .grupo-2{
+    background-color: #196F3D;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+/*ESTILOS CONOCENOS.HTML*/
+.pie-pagina_conocenos{
+    width: 100%;
+    background-color: #85C1E9;
+}
+.pie-pagina_conocenos .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 74px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+    padding: 15px 0px;
+}
+.pie-pagina_conocenos .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina_conocenos .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina_conocenos .grupo-1 .box h2{
+    color: #1A5276;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_conocenos .grupo-1 .box p{
+    color: #1A5276;
+    margin-bottom: 10px;
+    font-family: 'Baloo 2', cursive;
+    text-align: justify;
+    font-weight: bold;
+}
+.pie-pagina_conocenos .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 300ms ease;
+    color: #1A5276;
+}
+.pie-pagina_conocenos .grupo-1 .red-social a:hover{
+    color: #FFF;
+    background: #1A5276;
+}
+.pie-pagina_conocenos .grupo-2{
+    background-color: #1A5276;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_conocenos .grupo-2 small{
+    font-size: 15px;
+}
+ /*ESTILOS CONTACTANOS.HTML*/
+.pie-pagina_contacto{
+    width: 100%;
+    background-color: #EC7063;
+}
+.pie-pagina_contacto .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 74px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+    padding: 15px 0px;
+}
+.pie-pagina_contacto .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina_contacto .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina_contacto .grupo-1 .box h2{
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_contacto .grupo-1 .box p{
+    color: #FFF;
+    margin-bottom: 10px;
+    font-family: 'Baloo 2', cursive;
+    text-align: justify;
+    font-weight: bold;
+}
+.pie-pagina_contacto .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 300ms ease;
+    color: #CB4335;
+}
+.pie-pagina_contacto .grupo-1 .red-social a:hover{
+    color: #FFF;
+    background: #CB4335;
+}
+.pie-pagina_contacto .grupo-2{
+    background-color: #CB4335;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_contacto .grupo-2 small{
+    font-size: 15px;
+}
+
+/*ESTILOS DE SERVICIOS.HTML*/
+.pie-pagina_servicio{
+    width: 100%;
+    background-color: #FA8644;
+}
+.pie-pagina_servicio .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 74px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+    padding: 15px 0px;
+}
+.pie-pagina_servicio .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina_servicio .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina_servicio .grupo-1 .box h2{
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_servicio .grupo-1 .box p{
+    color: #FFF;
+    margin-bottom: 10px;
+    font-family: 'Baloo 2', cursive;
+    text-align: justify;
+    font-weight: bold;
+}
+.pie-pagina_servicio .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 300ms ease;
+    color: #F9620B;
+}
+.pie-pagina_servicio .grupo-1 .red-social a:hover{
+    color: #FFF;
+    background: #F9620B;
+}
+.pie-pagina_servicio .grupo-2{
+    background-color: #F9620B;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_servicio .grupo-2 small{
+    font-size: 15px;
+}
+
+/*ESTILOS DE COMUNIDAD:HTML*/
+.pie-pagina_comunidad{
+    width: 100%;
+    background-color: #AF7AC5;
+}
+.pie-pagina_comunidad .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 74px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+    padding: 15px 0px;
+}
+.pie-pagina_comunidad .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina_comunidad .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina_comunidad .grupo-1 .box h2{
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_comunidad .grupo-1 .box p{
+    color: #FFF;
+    margin-bottom: 10px;
+    font-family: 'Baloo 2', cursive;
+    text-align: justify;
+    font-weight: bold;
+}
+.pie-pagina_comunidad .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 300ms ease;
+    color: #7D3C98;
+}
+.pie-pagina_comunidad .grupo-1 .red-social a:hover{
+    color: #FFF;
+    background: #7D3C98;
+}
+.pie-pagina_comunidad .grupo-2{
+    background-color: #7D3C98;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_comunidad .grupo-2 small{
+    font-size: 15px;
+}
+
+/*ESTILOS DE PRODUCTOS.HTML*/
+.pie-pagina_productos{
+    width: 100%;
+    background-color: #ABB2B9;
+}
+.pie-pagina_productos .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 74px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+    padding: 15px 0px;
+}
+.pie-pagina_productos .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina_productos .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina_productos .grupo-1 .box h2{
+    color: #1C2833;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_productos .grupo-1 .box p{
+    color: #1C2833;
+    margin-bottom: 10px;
+    font-family: 'Baloo 2', cursive;
+    text-align: justify;
+    font-weight: bold;
+}
+.pie-pagina_productos .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 300ms ease;
+    color: #1C2833;
+}
+.pie-pagina_productos .grupo-1 .red-social a:hover{
+    color: #FFF;
+    background: #1C2833;
+}
+.pie-pagina_productos .grupo-2{
+    background-color: #1C2833;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pie-pagina_productos .grupo-2 small{
+    font-size: 15px;
+}
+@media (max-width:869px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        margin: auto;
+    }
+    .pie-pagina_conocenos .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        margin: auto;
+    }
+    .pie-pagina_contacto .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        margin: auto;
+    }
+    .pie-pagina_servicio .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        margin: auto;
+    }
+    .pie-pagina_comunidad .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        margin: auto;
+    }
+    .pie-pagina_productos .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        margin: auto;
+    }
+}

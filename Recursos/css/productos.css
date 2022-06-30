@@ -1,0 +1,98 @@
+.login_icon6{
+    margin: 5px;
+    font-size: 20px;
+    color: #1C2833;
+}
+.btn-shop{
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #1C2833;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  margin: 20px auto;
+  transition: all 0.5s;
+}
+.btn-shop:hover{
+  background: #1C2833;
+  color: white;
+  border-radius: 10px;
+}
+.btn-outline-success{
+    color: #1C2833;
+}
+.btn-outline-success:hover{
+    background: #1C2833;
+}
+
+.productos_seccion h4{
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    animation: bounceInLeft;
+    animation-duration: 2s;
+    font-family: 'Baloo Tamma 2', cursive;
+    background: #1C2833;
+}
+.productos_seccion .card{
+    margin-top: 20px;
+}
+.productos_seccion img{
+    height: 150px;
+    width: 100px;
+    margin: auto;
+}
+.productos_seccion .producto_card{
+    width: 250px;
+}
+.productos_seccion .producto_card .card-title{
+    font-size: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.productos_seccion .producto_card .card-text{
+    font-size: 18px;
+    font-family: 'Baloo 2', cursive;
+}
+.productos_seccion .producto_card a{
+    font-size: 18px;
+    padding: 5px;
+    width: 100px;
+    font-family: 'Baloo 2', cursive;
+    margin: 0px 10px;
+}
+
+
+
+/*ESTILOS PARA TABLETA*/
+@media (max-width: 820px){
+    .productos_seccion .container{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .productos_seccion .card{
+        width: 160px;
+        height: 300px;
+        margin: auto;
+    }
+    .productos_seccion .producto_card a{
+        width: 120px;
+    }
+}
+/*ESTILOS PARA DISPOSITIVOS MOVILES*/
+@media (max-width:768px){
+    .navbar-toggler-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .productos_seccion .card{
+        margin: auto;
+        width: 300px;
+    }
+    .productos_seccion a{
+        width: 260px;
+    }
+}
